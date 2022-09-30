@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600;700&display=swap');
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Radio Canada', sans-serif !important;
+}
+.appbody {
+    flex: 1;
+    margin-top: 60px;
+    display: block;
+    z-index: 0;
+}
+.app-navbar {
+    width: 100%;
+    min-height: 45px;
+    box-shadow: 0px 2px 2px -1px rgb(0 0 0 / 10%);
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    position: fixed;
+    z-index:1;
+    background: white;
+
+    top: 0; /* Position the navbar at the top of the page */
+
+}
+
+.middle-bar {
+    flex: 1;
+    display: flex;
+    padding-left: 24px;
+}
+
+.end-bar {
+    display: flex;
+}
+
+.p1 {
+    padding: 8px;
+}
+
+.nav-button {
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.nav-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.description-panel {
+    display: flex;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.description-panel:hover {
+    background: #f5f5f5;
+}
+
+.description-panel-desc {
+    font-size: 12px;
+}
+.w100 {
+    width: 100%;
+}
+
+.app-footer {
+    width: 100%;
+    padding: 8px;
+    box-shadow: 0px -1px 2px -1px rgb(0 0 0 / 10%);
+    display: flex;
+    padding-left: 30px;
+    background: #f9f9f9;
+    align-items: center;
+
+}
+.copy-text {
+    font-size: 12px;
+    color: #333;
+}
+.c1 {
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #333;
+}
+.c1 a {
+    text-decoration: none;
+    color: #333;
+}
+.footer-control {
+
+    display: flex;
+}
+.footer-middle {
+    flex:1;
+}
+.article_content > h1 {
+    font-size: 18px;
+}
+.pt {
+    padding-top: 16px;
+}
+.article_content > p {
+    font-size: 13px;
+    color: #555;
+}
+.plr {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.article_c {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: -8% !important;
+}
+.article_content {
+    padding-top: 8px;
+}
+.cus-panel {
+    border-radius: 3px;
+    background: #f5f5f5;
+    margin-bottom: 8px;
+}
+.email-ip {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.lbl {
+    font-size: 13px;
+    color: #333;
+}
+.txt-area {
+    resize: none;
+}
+
+.mobilehide {
+    display: flex;
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+   .mobilehide {
+       display: none;
+   }
+}
+.fadein {
+    padding: 4px;
+    border: 1px solid #dadada;
+}
+.acaption {
+    font-size: 28px;
+    color: #fff;
+    z-index: 5;
+    position: absolute;
+}
+.install_steps {
+    list-style: none;
+}
+.install_steps li {
+   font-size: 13px;
+}
+.steps {
+    padding-top: 18px;
+    padding-bottom: 8px;
+    background: #EAEAEA;
+}
+.cp2 > h1 {
+    font-size: 20px;
+}
+.cp2 > h2 {
+    font-size: 15px;
+}
+.cp2 > p {
+    font-size: 13px;
+    color: #555555;
+}
+
+.front-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+.front-panel:hover {
+    border: 1px solid #f5f5f5;
+}
+.front-panel > h6 {
+    margin-top: 14px;
+}
+.cc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cc > div > h6 {
+    margin-right: 12px;
+    font-size: 15px;
+}
+.cc > div {
+    margin-left: 12px;
+}
+
+.cc > div >  p {
+    margin-right: 12px;
+    font-size: 12px;
+}
